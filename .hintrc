@@ -1,5 +1,9 @@
 {
   "extends": [
     "development"
-  ]
+  ],
+  "compilerOptions": {
+  "target": "ES2023"
+}
+
 }
