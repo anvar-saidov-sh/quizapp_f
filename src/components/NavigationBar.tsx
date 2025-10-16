@@ -1,7 +1,7 @@
 import {
     NavLink
 } from "react-router";
-
+import '../App.css'
 function NavigationBar() {
     return (
         <div className="w-full h-12 bg-green-500 flex justify-around items-center text-lg font-medium ">

@@ -1,10 +1,11 @@
+import NavigationBar from "../components/NavigationBar"
+import '../App.css'
 
- 
 function Home() {
   return (
     <>
         <div>
-            <h1 className="text-6xl bg-amber-700">Hello</h1>
+            <NavigationBar />
         </div>
     </>
   )
