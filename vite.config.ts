@@ -12,5 +12,11 @@ export default defineConfig({
       },
     }),
     tailwindcss(),
+    
   ],
+  server: {
+    allowedHosts: [
+      'probankruptcy-stanley-sheeplike.ngrok-free.dev'
+    ]
+  }
 })
