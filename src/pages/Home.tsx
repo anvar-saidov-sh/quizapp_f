@@ -1,12 +1,13 @@
 import NavigationBar from "../components/NavigationBar"
 import '../App.css'
+import Footer from "../components/Footer"
 
 function Home() {
   return (
     <>
-        <div> 
-            <NavigationBar />
-        </div>
+      <NavigationBar />
+
+      <Footer />
     </>
   )
 }
