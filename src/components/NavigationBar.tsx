@@ -1,7 +1,6 @@
 import {
     NavLink
 } from "react-router";
-import AdbIcon from '@mui/icons-material/Adb';
 import '../App.css'
 function NavigationBar() {
     return (
@@ -21,13 +20,13 @@ function NavigationBar() {
                     <NavLink to="/about">About</NavLink>
                 </li>
             </div>
-            <div>
-                <li>
+            <div className="flex gap-5">
+                <button className="text-[15px] bg-[#ffffff] text-[#000000] px-3 py-1 rounded-md ">
                     <NavLink to="/signin">Sign In</NavLink>
-                </li>
-                <li>
+                </button>
+                <button className="text-[15px] bg-[#ffffff] text-[#000000] px-3 py-1 rounded-md ">
                     <NavLink to="/register">Register</NavLink>
-                </li>
+                </button>
             </div>
         </div>
     )
