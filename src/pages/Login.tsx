@@ -1,6 +1,7 @@
 import { ArrowBack } from "@mui/icons-material";
 import React from "react";
 import { NavLink, useNavigate } from "react-router";
+import Footer from "../components/Footer";
 
 const Login: React.FC = () => {
   const navigate = useNavigate();
@@ -58,7 +59,6 @@ const Login: React.FC = () => {
                 className="w-full px-3 py-2 border border-gray-300 dark:border-gray-700 rounded-lg text-sm bg-transparent focus:outline-none focus:ring-2 focus:ring-blue-500"
               />
             </div>
-
             <button
               type="submit"
               className="w-full bg-blue-600 hover:bg-blue-700 text-white font-medium text-sm py-2 rounded-lg transition-colors"
@@ -78,6 +78,7 @@ const Login: React.FC = () => {
           </p>
         </div>
       </div>
+      <Footer />
     </div>
   );
 };
