@@ -2,8 +2,10 @@ import { ArrowBack } from "@mui/icons-material";
 import React from "react";
 import { NavLink, useNavigate } from "react-router";
 import Footer from "../components/Footer";
-
-const Login: React.FC = () => {
+interface LoginProps {
+  user: any;
+}
+const Login: React.FC<LoginProps> = ({user}) => {
   const navigate = useNavigate();
 
   const handleBack = () => {
