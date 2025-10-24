@@ -1,10 +1,13 @@
+import Login from "./Login";
 
 
-function Home() {
- return (
+function App() {
+
+  return (
     <>
-
+      <Login />
     </>
   );
 }
-export default Home;
+
+export default App;

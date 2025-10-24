@@ -16,7 +16,8 @@ export default defineConfig({
   ],
   server: {
     allowedHosts: [
-      'probankruptcy-stanley-sheeplike.ngrok-free.dev'
+      'probankruptcy-stanley-sheeplike.ngrok-free.dev',
+      "hfokku-ip-62-164-150-104.tunnelmole.net"
     ]
   }
 })
