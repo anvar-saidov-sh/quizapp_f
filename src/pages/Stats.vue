@@ -59,7 +59,7 @@ const user = {
   avatar: "https://i.pravatar.cc/150?img=33",
   first_name: "Anvar",
   last_name: "Saidov",
-  username: "anvar_s",
+  username: "anvar_saidov_sh",
   joined: "July 2024",
 };
 
